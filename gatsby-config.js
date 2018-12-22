@@ -4,7 +4,6 @@ module.exports = {
   siteMetadata: {
     ...config,
   },
-  pathPrefix: '/grodn.life',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
