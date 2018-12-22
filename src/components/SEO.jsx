@@ -142,7 +142,6 @@ const query = graphql`
         siteLanguage
         logo
         siteUrl: url
-        pathPrefix
         defaultDescription: description
         defaultBanner: banner
         twitter

@@ -1,7 +1,6 @@
 module.exports = {
-  pathPrefix: '/grdon.life', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
   title: 'Grdon Blog', // Navigation and Site Title
-  titleAlt: 'Grodn Blog', // Title for JSONLD
+  titleAlt: 'Grdon Blog', // Title for JSONLD
   description: 'A personal blog about everyday grdons',
   url: 'http://grdon.life', // Domain of your site. No trailing slash!
   siteUrl: 'http://grdon.life', // url + pathPrefix
