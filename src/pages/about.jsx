@@ -6,8 +6,8 @@ import { Layout, Container } from 'layouts';
 
 const About = center => (
   <Layout>
-    <Helmet title={'About Page'} />
-    <Header title="About Page">Grdon blog</Header>
+    <Helmet title={'About'} />
+    <Header title="About">Grdon blog</Header>
     <Container center={center}>
       <div>
         <h3>This is a grdon site for grdon blog</h3>
