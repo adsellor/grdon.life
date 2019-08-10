@@ -14,8 +14,6 @@ const SuggestionBar = styled.div`
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  background: ${props => props.theme.colors.white.light};
-  box-shadow: ${props => props.theme.shadow.suggestion};
 `;
 const PostSuggestion = styled.div`
   display: flex;
@@ -89,7 +87,7 @@ export const query = graphql`
             fluid(
               maxWidth: 1920
               quality: 90
-              duotone: { highlight: "#386eee", shadow: "#2323be", opacity: 60 }
+              duotone: { highlight: "#fcc0bb", shadow: "#fcc8c4", opacity: 30 }
             ) {
               ...GatsbyImageSharpFluid_withWebp
             }

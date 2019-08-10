@@ -4,6 +4,8 @@ import styled from 'react-emotion';
 const Wrapper = styled.footer`
   position: relative;
   padding-top: 2rem;
+  right: 0;
+  left: 0;
   bottom: 0;
   box-shadow: ${props => props.theme.shadow.footer};
   background: ${props => props.theme.gradient.leftToRight};
